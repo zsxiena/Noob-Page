@@ -1,0 +1,68 @@
+body {
+  background-image: url('header.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* To align items vertically in the center */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjusted to 100vh for full viewport height */
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 120px;
+}
+
+
+/* Style for buttons */
+.btn {
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 10px;
+  width: 10%;
+  height: 6%;
+  background-color: blue;
+  border-color:blue;
+  color: cyan;
+}
+
+.btn:hover {
+  background-color: darkred;
+  border-color: darkred;
+  color: red;
+}
+
+/* Style for h3 */
+h3 {
+  font-size: 1.2rem;
+  color: cyan;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+/* Style for h1 */
+h1 {
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 20px;
+  color: cyan;
+}
+
+img {
+  opacity: 0;
+  width: 40%;
+  height:20%;
+}
+
+img:hover {
+  opacity: 1;
+}
